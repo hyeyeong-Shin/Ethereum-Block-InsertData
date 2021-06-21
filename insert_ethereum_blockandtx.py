@@ -18,7 +18,7 @@ import binascii
 # docker exec -it ethereum-node geth attach 
 
 ### DB Connection Info ###
-connectionLocalIP = pymongo.MongoClient('210.125.31.245',1000)
+connectionLocalIP = pymongo.MongoClient('127.0.0.1',1000)
 localDB = connectionLocalIP.get_database('Ethereum')
 block_Collection = localDB.get_collection('Block')
 transaction_Collection = localDB.get_collection('Transaction')
