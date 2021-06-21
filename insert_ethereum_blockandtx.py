@@ -265,7 +265,7 @@ if __name__=="__main__":
         now = time.localtime()
         print()
         print('%04d/%02d/%02d %02d:%02d:%02d'% (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec))
-        time.sleep(60)
+        time.sleep(60*60)
 
         now = time.localtime()
         print('%04d/%02d/%02d %02d:%02d:%02d'% (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec))
